@@ -12,6 +12,8 @@
 		2CFCE6E0250B747A00AD0CFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CFCE6DE250B747A00AD0CFF /* Main.storyboard */; };
 		2CFCE6E2250B747C00AD0CFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CFCE6E1250B747C00AD0CFF /* Assets.xcassets */; };
 		2CFCE6E5250B747C00AD0CFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CFCE6E3250B747C00AD0CFF /* LaunchScreen.storyboard */; };
+		2CFCE6ED250B758400AD0CFF /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CFCE6EC250B758400AD0CFF /* CardView.xib */; };
+		2CFCE6EF250B759500AD0CFF /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFCE6EE250B759500AD0CFF /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2CFCE6E1250B747C00AD0CFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CFCE6E4250B747C00AD0CFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CFCE6E6250B747C00AD0CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CFCE6EC250B758400AD0CFF /* CardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		2CFCE6EE250B759500AD0CFF /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				2CFCE6E1250B747C00AD0CFF /* Assets.xcassets */,
 				2CFCE6E3250B747C00AD0CFF /* LaunchScreen.storyboard */,
 				2CFCE6E6250B747C00AD0CFF /* Info.plist */,
+				2CFCE6EC250B758400AD0CFF /* CardView.xib */,
+				2CFCE6EE250B759500AD0CFF /* CardView.swift */,
 			);
 			path = TinderSwipe;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			files = (
 				2CFCE6E5250B747C00AD0CFF /* LaunchScreen.storyboard in Resources */,
 				2CFCE6E2250B747C00AD0CFF /* Assets.xcassets in Resources */,
+				2CFCE6ED250B758400AD0CFF /* CardView.xib in Resources */,
 				2CFCE6E0250B747A00AD0CFF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CFCE6DD250B747A00AD0CFF /* ViewController.swift in Sources */,
+				2CFCE6EF250B759500AD0CFF /* CardView.swift in Sources */,
 				2CFCE6D9250B747A00AD0CFF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
